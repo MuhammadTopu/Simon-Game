@@ -1,0 +1,88 @@
+body{
+ text-align: center;
+ font-family: sans-serif;
+ background-color: #161B33;
+ overflow: hidden;
+}
+
+div{
+    text-align: center;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 2.5rem;
+   
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: #ff2a00;
+    box-shadow: 4px 6px 8px #ff2a00;
+}
+.yellow{
+    background-color: #eeb011;
+    box-shadow: 4px 6px 8px #eeb011;
+}
+.green{
+    background-color: #78a956;
+    box-shadow: 4px 6px 8px #78a956;
+}
+.purple{
+    background-color: #9009f6;
+    box-shadow: 4px 6px 8px #9009f6;
+}
+.flash{
+    background-color: aliceblue;
+}
+.userflash{
+    background-color: black;
+}
+.round{
+     margin-left: auto;
+     margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid black;
+    background-color: wheat;
+    box-shadow: 4px 6px 4px black;
+
+}
+h1{ 
+    width: 300px;
+   
+    color: white;
+    border: 2px solid black;
+}
+h2{
+    color: white;
+    line-height: 10px;
+}
+h3{ 
+    margin-left:auto;
+    width: 300px;
+    color: white;
+}
+.bton{
+    width: 200px;
+    height: 20px;
+    margin-top: 2rem;
+    background-color: #161B33;
+    color: white;
+    border-radius: 10px;
+}
+
+.bton:hover{
+    color: #78a956;
+    box-shadow: 2px 2px 2px black;
+}
+.bton:active{
+    background-color: #78a956;
+    color: black;
+    font-family: sans-serif;
+}

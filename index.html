@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <h2>Press any key to start</h2>
+    <h3>High Score is :</h3>
+     
+    <div class="round">
+        <div class="btn-container">
+            <div class="line-one">
+                <div class="btn red" type="button" id="red"></div>
+                <div class="btn yellow"type="button"id="yellow"></div>
+            </div>
+           
+            <div class="line-two">
+                <div class="btn green"type="button" id="green"></div>
+                <div class="btn purple"type="button" id="purple"></div>
+            </div>
+            
+        </div>
+
+    </div>
+  <br>
+  <button class="bton">Start</button>
+    <audio id="gameOverSound" volume="1000" src="/Buzzer.mp3"></audio>
+    <script src="/app.js"></script>
+</body>
+</html>
