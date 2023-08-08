@@ -68,7 +68,7 @@ h3{
     width: 300px;
     color: white;
 }
-.bton{
+.b{
     width: 200px;
     height: 20px;
     margin-top: 2rem;
@@ -77,11 +77,11 @@ h3{
     border-radius: 10px;
 }
 
-.bton:hover{
+.b:hover{
     color: #78a956;
     box-shadow: 2px 2px 2px black;
 }
-.bton:active{
+.b:active{
     background-color: #78a956;
     color: black;
     font-family: sans-serif;
